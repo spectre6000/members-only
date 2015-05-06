@@ -1,28 +1,18 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+The goals of the project are as follows:
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* users (manually added)
+* with name, email, and password
+* that can log in and out
+- securely*
+- with sessions/cookies that remember session state
+- and remember_tokens for long term recollection
+- and make posts
+- that are visible to all traffic
+- but only the poster is visible to other users
 
 
-Please feel free to use a different markup language if you do not plan to run
+*very relative
+
 <tt>rake doc:app</tt>.
